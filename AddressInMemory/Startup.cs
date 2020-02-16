@@ -31,6 +31,11 @@ namespace AddressInMemory
 
             services.AddDbContext<APIContext>(context => { context.UseInMemoryDatabase("AddressInMemory"); });
             services.AddScoped<APIContext>();
+
+            services.AddMvc(options =>
+            {
+                options.Filters.Add(typeof(ValidatorActionFilter));
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
