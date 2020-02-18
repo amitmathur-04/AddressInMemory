@@ -4,18 +4,20 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AddressInMemory.Models
+namespace AddressInMemory.Validations
 {
     public class Address
     {
         public int Id { get; set; }
 
         [Required]
-        [MaxLength(50)]
+        [MaxLength(50, ErrorMessage ="Max characters of Person Name can be 50 only")]
+        [RegularExpression(@"[a-zA-Z]+\\s",ErrorMessage ="Person Name should have only alphaets")]
         public string PersonName { get; set; }
 
         [Required]
-        [MaxLength(8)]
+        [MaxLength(8,ErrorMessage = "Flat No can have 8 characters as max length")]
+        [RegularExpression(@"[a-zA-Z0-9-]+\\s", ErrorMessage = "Flat No. can have alphanumeric and - characters")]
         public string FlateNo { get; set; }
 
         [Required]

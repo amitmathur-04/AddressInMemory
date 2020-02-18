@@ -1,0 +1,8 @@
+﻿Nuget Pkgs Installed:
+  Microsoft.EntityFrameworkCore.InMemory
+  Microsoft.Extensions.Diagnostics.HealthChecks
+  xunit
+  xunit.runner.visualstudio
+  FluentValidation.AspNetCore
+
+

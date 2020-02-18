@@ -144,5 +144,9 @@ F:\Projects\AddressInMemory\AddressInMemory\bin\Debug\netcoreapp3.1\runtimes\win
 F:\Projects\AddressInMemory\AddressInMemory\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 F:\Projects\AddressInMemory\AddressInMemory\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 F:\Projects\AddressInMemory\AddressInMemory\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\Projects\AddressInMemory\AddressInMemory\obj\Debug\netcoreapp3.1\AddressInMemory.MvcApplicationPartsAssemblyInfo.cs
 F:\Projects\AddressInMemory\AddressInMemory\obj\Debug\netcoreapp3.1\AddressInMemory.MvcApplicationPartsAssemblyInfo.cache
+F:\Projects\AddressInMemory\AddressInMemory\bin\Debug\netcoreapp3.1\FluentValidation.dll
+F:\Projects\AddressInMemory\AddressInMemory\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+F:\Projects\AddressInMemory\AddressInMemory\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
 F:\Projects\AddressInMemory\AddressInMemory\obj\Debug\netcoreapp3.1\AddressInMemory.csprojAssemblyReference.cache

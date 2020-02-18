@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AddressInMemory.Models
+namespace AddressInMemory.Validations
 {
     public class APIContext : DbContext
     {

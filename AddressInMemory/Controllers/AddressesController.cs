@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using AddressInMemory.Models;
+using AddressInMemory.Validations;
 
 namespace AddressInMemory.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [ServiceFilter(typeof(ValidatorActionFilter))]
     public class AddressesController : ControllerBase
     {
         private readonly APIContext _context;
@@ -37,7 +34,7 @@ namespace AddressInMemory.Controllers
         }
 
         // PUT: api/Addresses/5
-        [HttpPut("{name}")]
+         [HttpPut("{name}")]
         public IActionResult PutAddress(string name, [FromBody] Address address)
         {
             if (name != address.PersonName)
