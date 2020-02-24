@@ -228,3 +228,5 @@ F:\Projects\AddressInMemory\AddressInMemory.Test\obj\Debug\netcoreapp3.1\Address
 F:\Projects\AddressInMemory\AddressInMemory.Test\bin\Debug\netcoreapp3.1\FluentValidation.dll
 F:\Projects\AddressInMemory\AddressInMemory.Test\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
 F:\Projects\AddressInMemory\AddressInMemory.Test\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+F:\Projects\AddressInMemory\AddressInMemory.Test\bin\Debug\netcoreapp3.1\Castle.Core.dll
+F:\Projects\AddressInMemory\AddressInMemory.Test\bin\Debug\netcoreapp3.1\Moq.dll

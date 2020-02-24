@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AddressInMemory.Validations
+namespace AddressInMemory.Models
 {
     public class Address
     {

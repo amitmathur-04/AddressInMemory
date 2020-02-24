@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using AddressInMemory.Validations;
+using AddressInMemory.Models;
 
 namespace AddressInMemory.Controllers
 {

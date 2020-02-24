@@ -1,3 +1,4 @@
+using AddressInMemory.Models;
 using AddressInMemory.Validations;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;

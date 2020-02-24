@@ -4,14 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AddressInMemory.Validations
+namespace AddressInMemory.Models
 {
     public class APIContext : DbContext
     {
         public DbSet<Address> Addressess { get; set; }
-
-        public APIContext()
-        { }
 
         public APIContext(DbContextOptions<APIContext> context) : base(context)
         {
