@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Projects\\AddressInMemory\\AddressInMemory\\AddressInMemory.csproj": {}
+    "F:\\Projects\\AddressInMemory\\ATDDProject.Test\\ATDDProject.Test.csproj": {}
   },
   "projects": {
-    "F:\\Projects\\AddressInMemory\\AddressInMemory\\AddressInMemory.csproj": {
+    "F:\\Projects\\AddressInMemory\\ATDDProject.Test\\ATDDProject.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projects\\AddressInMemory\\AddressInMemory\\AddressInMemory.csproj",
-        "projectName": "AddressInMemory",
-        "projectPath": "F:\\Projects\\AddressInMemory\\AddressInMemory\\AddressInMemory.csproj",
+        "projectUniqueName": "F:\\Projects\\AddressInMemory\\ATDDProject.Test\\ATDDProject.Test.csproj",
+        "projectName": "ATDDProject.Test",
+        "projectPath": "F:\\Projects\\AddressInMemory\\ATDDProject.Test\\ATDDProject.Test.csproj",
         "packagesPath": "C:\\Users\\Amit\\.nuget\\packages\\",
-        "outputPath": "F:\\Projects\\AddressInMemory\\AddressInMemory\\obj\\",
+        "outputPath": "F:\\Projects\\AddressInMemory\\ATDDProject.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amit\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,35 +38,21 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "FluentValidation.AspNetCore": {
+            "MSTest.TestAdapter": {
               "target": "Package",
-              "version": "[8.6.1, )"
+              "version": "[2.0.0, )"
             },
-            "Microsoft.EntityFrameworkCore.InMemory": {
+            "MSTest.TestFramework": {
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[2.0.0, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[16.2.0, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
+            "coverlet.collector": {
               "target": "Package",
-              "version": "[3.1.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.1, )"
-            },
-            "Microsoft.Extensions.Diagnostics.HealthChecks": {
-              "target": "Package",
-              "version": "[3.1.1, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[1.0.1, )"
             }
           },
           "imports": [
@@ -80,9 +66,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
